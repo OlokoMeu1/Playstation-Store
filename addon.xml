@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.store" name="PlaystationStore" version="1.0.4" provider-name="Sony">
+    <extension point="xbmc.addon.repository" name="Playstation Store">
+        <dir minversion="18.0.0">
+            <info compressed="false">https://github.com/OlokoMeu1/Playstation-Store/releases</info>
+            <checksum>https://github.com/OlokoMeu1/Playstation-Store/releases</checksum>
+            <datadir zip="true">https://github.com/OlokoMeu1/Playstation-Store/releases</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">PlayStationStore</summary>
+        <description>PlaystationStore</description>
+        <platform>all</platform>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
